@@ -1,0 +1,36 @@
+# ----------------------
+# Python environment files
+# ----------------------
+venv/
+.env/
+__pycache__/
+
+# ----------------------
+# Jupyter notebook checkpoints
+# ----------------------
+.ipynb_checkpoints/
+
+# ----------------------
+# Dataset or large files
+# ----------------------
+data/
+# Keep small models like scaler.pkl, remove if large
+models/*.pkl  
+
+# ----------------------
+# IDE / Editor files
+# ----------------------
+*.idea/
+*.vscode/
+
+# ----------------------
+# Anaconda / Conda
+# ----------------------
+anaconda3/
+miniconda3/
+
+# ----------------------
+# Logs and temporary files
+# ----------------------
+*.log
+*.tmp
